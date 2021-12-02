@@ -1,0 +1,42 @@
+/* #############################
+   Global settings
+################################ */
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: rgb(194, 194, 194);
+   font-size: 1.6rem;
+}
+
+h1 {
+   margin-bottom: 10vh;
+   font-size: 10rem;
+}
+
+main {
+   text-align: center;
+}
+
+section {
+   display: flex;
+   justify-content: space-around;
+}
+
+section div {
+   width: 30vw;
+}
+
+section div p:first-child {
+   padding: 1.2vh 0;
+   background-color: lightblue;
+}
+
+section div p:last-child {
+   padding: 1.2vh 0;
+   background-color: #fff;
+}
